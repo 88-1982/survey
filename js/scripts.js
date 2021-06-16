@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
   $("#submit").submit(function(event) {
     event.preventDefault();
     const favoriteFood = $("#favoriteFood").val();
